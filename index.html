@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The personal portfolio of Alex Morgan — designer, developer, and curious human."
+    />
+    <meta name="theme-color" content="#f7f6f2" />
+    <title>Alex Morgan — Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <nav class="nav shell" aria-label="Main navigation">
+        <a class="wordmark" href="#home" aria-label="Alex Morgan, home">am<span>.</span></a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          <span class="menu-toggle-label">Menu</span>
+          <span class="menu-icon" aria-hidden="true"><span></span><span></span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#contact">Contact</a>
+          <a class="nav-cta" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero shell" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> Available for select projects</p>
+          <h1>Making the internet a little more <span>human.</span></h1>
+          <p class="hero-intro">
+            Hey, I’m Alex — a designer and front-end developer who loves turning
+            thoughtful ideas into useful, memorable experiences.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#work">Explore my work <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="#about">A little about me <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-note">
+            <span class="note-line" aria-hidden="true"></span>
+            <p>Currently building good things<br />from somewhere sunny.</p>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-label="Abstract portrait illustration">
+          <div class="art-sun"></div>
+          <div class="art-shape art-shape-back"></div>
+          <div class="art-shape art-shape-front"></div>
+          <div class="art-plant plant-one"><i></i><i></i><i></i><i></i><b></b></div>
+          <div class="art-plant plant-two"><i></i><i></i><i></i><b></b></div>
+          <div class="art-ground"></div>
+          <p class="art-caption">A creative mind<br />and a decent playlist.</p>
+          <span class="art-stamp">EST. 1998<br />GOOD IDEAS</span>
+        </div>
+      </section>
+
+      <section class="intro-band" aria-label="Introduction">
+        <div class="shell intro-band-inner">
+          <p>Curious by nature.<br /><span>Intentional by design.</span></p>
+          <span class="band-star" aria-hidden="true">✳</span>
+          <p class="band-detail">Independent creative<br />working worldwide</p>
+        </div>
+      </section>
+
+      <section class="about section shell" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">01 / A bit about me</p>
+          <h2>Good work starts<br />with <span>good questions.</span></h2>
+        </div>
+        <div class="about-content">
+          <p class="about-lede">
+            I bring design and code together to make digital experiences feel
+            clear, considered, and genuinely enjoyable to use.
+          </p>
+          <p class="body-copy">
+            Over the last few years, I’ve partnered with kind people and
+            ambitious teams to shape brands, build websites, and solve the
+            tricky bits in between. I believe in simple ideas done with care,
+            open collaboration, and always leaving room to learn something new.
+          </p>
+          <div class="about-meta">
+            <div><span>Based in</span><strong>Your City, Country</strong></div>
+            <div><span>Doing</span><strong>Design &amp; development</strong></div>
+            <div><span>Off-screen</span><strong>Books, plants &amp; long walks</strong></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="work section" id="work">
+        <div class="shell">
+          <div class="work-heading">
+            <div class="section-heading">
+              <p class="eyebrow">02 / Selected work</p>
+              <h2>A few things<br />I’ve <span>put out there.</span></h2>
+            </div>
+            <p class="work-summary">A handful of collaborations, experiments, and happy accidents.</p>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card project-card-large">
+              <a class="project-link" href="#contact" aria-label="Ask me about Fieldnotes">
+                <div class="project-art fieldnotes-art">
+                  <span class="fieldnotes-mark">field<br />notes<span>.</span></span>
+                  <span class="fieldnotes-sun"></span>
+                  <span class="fieldnotes-hill hill-one"></span>
+                  <span class="fieldnotes-hill hill-two"></span>
+                  <span class="project-arrow" aria-hidden="true">↗</span>
+                </div>
+                <div class="project-info">
+                  <div><h3>Fieldnotes</h3><p>A slower way to plan your day</p></div>
+                  <span class="project-type">Brand · Digital</span>
+                </div>
+              </a>
+            </article>
+            <article class="project-card">
+              <a class="project-link" href="#contact" aria-label="Ask me about Goodform">
+                <div class="project-art goodform-art">
+                  <span class="goodform-copy">make<br />room for<br /><i>good</i> things</span>
+                  <span class="goodform-circle circle-one"></span>
+                  <span class="goodform-circle circle-two"></span>
+                  <span class="project-arrow" aria-hidden="true">↗</span>
+                </div>
+                <div class="project-info">
+                  <div><h3>Goodform</h3><p>Movement for everybody</p></div>
+                  <span class="project-type">Identity · Web</span>
+                </div>
+              </a>
+            </article>
+            <article class="project-card">
+              <a class="project-link" href="#contact" aria-label="Ask me about Sunday Supply">
+                <div class="project-art sunday-art">
+                  <span class="sunday-sun"></span>
+                  <span class="sunday-label">SUNDAY<br />SUPPLY CO.</span>
+                  <span class="sunday-wave"></span>
+                  <span class="project-arrow" aria-hidden="true">↗</span>
+                </div>
+                <div class="project-info">
+                  <div><h3>Sunday Supply</h3><p>Everyday objects, made to last</p></div>
+                  <span class="project-type">E-commerce</span>
+                </div>
+              </a>
+            </article>
+          </div>
+          <p class="projects-note">These are concept projects — swap in your own work and links.</p>
+        </div>
+      </section>
+
+      <section class="services section shell" aria-labelledby="services-title">
+        <div class="section-heading">
+          <p class="eyebrow">03 / What I can help with</p>
+          <h2 id="services-title">From first sketch<br />to <span>final scroll.</span></h2>
+        </div>
+        <div class="service-list">
+          <div class="service-row"><span>01</span><h3>Web design</h3><p>Thoughtful, responsive websites that make your next step feel obvious.</p><span class="service-symbol" aria-hidden="true">↗</span></div>
+          <div class="service-row"><span>02</span><h3>Development</h3><p>Fast, accessible front ends built with care and the right amount of detail.</p><span class="service-symbol" aria-hidden="true">↗</span></div>
+          <div class="service-row"><span>03</span><h3>Visual identity</h3><p>A distinctive visual language that feels like you, everywhere you show up.</p><span class="service-symbol" aria-hidden="true">↗</span></div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <div class="shell contact-inner">
+          <div>
+            <p class="eyebrow">04 / Your turn</p>
+            <h2>Have a good one<br />in <span>mind?</span></h2>
+          </div>
+          <div class="contact-copy">
+            <p>I’d love to hear what you’re thinking. Tell me a little about it and let’s see what we can make together.</p>
+            <a class="button button-light" href="mailto:hello@example.com">hello@example.com <span aria-hidden="true">↗</span></a>
+          </div>
+          <span class="contact-spark" aria-hidden="true">✳</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer shell">
+      <a class="wordmark" href="#home" aria-label="Back to top">am<span>.</span></a>
+      <p>Made with care <span aria-hidden="true">♥</span> <span id="year"></span></p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram <span aria-hidden="true">↗</span></a>
+      </div>
+    </footer>
+  </body>
+</html>
